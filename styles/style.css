@@ -105,6 +105,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 .leftside-content {
   width: 50%;
@@ -150,4 +151,61 @@ h1 {
 .rightside-content img {
   width: 349.16px;
   height: 464.65px;
+}
+
+/* holiday-section */
+
+.holiday-section-container {
+  width: 1320px;
+  height: 986.07px;
+  border: 2px solid red;
+  margin: 0 auto;
+  position: relative;
+}
+.holiday-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+}
+.holiday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.holiday-text-container h2 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+}
+#holidays {
+  color: rgb(255, 0, 0);
+}
+.holiday-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.solid-color {
+  width: 1320px;
+  height: 229px;
+  background: rgb(255, 0, 0);
+  position: absolute;
+  top: 76.7%;
+}
+.giftbox {
+  position: relative;
+  z-index: 1;
+}
+.discount {
+  position: absolute;
+  left: 70%;
+  bottom: 30%;
 }
